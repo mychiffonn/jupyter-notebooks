@@ -1,21 +1,11 @@
-# Inferential Statistics on Goodreads English Titles
+# Archived vault of Jupyter Notebooks
 
-This repository contains an analysis of Goodreads English titles using inferential statistics. Specifically, a two-sample t-test (difference of means) was conducted to compare the average rating of English books with long title names (>= 6 words) to the average rating of books with short titles.
+As I'm transitioning to more refactored Python code, this repo stores Jupyter Notebooks that represent my old work. As of now (November 2023), it includes the coursework that reflects my learnings and interests.
 
-### Dataset
-
-The dataset used for this analysis `sampled-books.csv` was directly sampled from the Goodreads dataset on [Kaggle](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks) (45K rows). It contains information about the title, author, average rating, and number of reviews of books on Goodreads.
-
-Therefore, the statistical inference drawn from this repo can only be applicable to the population of English books found in the larger [Goodreads dataset](https://www.kaggle.com/datasets/jealousleopard/goodreadsbooks).
-
-### Analysis: EDA & Statistical Inference
-
-The analysis was conducted using Python and the `pandas` and `scipy` libraries. 
-
-The two-sample t-test was used to compare a two-sample t-test (difference of means) was conducted to compare the average rating of English books with long title names (>= 6 words) to the average rating of books with short titles. The results of the t-test show that **there is a statistically significant difference between the two groups** ($p = 0.01 < 0.05$).
-
-However,  the average ratings of long-titled English books are **only slightly higher than** those of short-titled books ($\text{Cohen's } d = 0.36$).
-
-### Results
-
-The results of the analysis are presented in the [Jupyter Notebook](https://github.com/chiffonng/inferential-stat-goodreads/blob/main/Statistical%20Inference_Goodreads%20Books.ipynb). The Notebook contains the code used for the analysis as well as visualizations of the data.
+## Minerva University
+- 1st year, Data Analysis & (CS51): [Regression analysis](https://github.com/chiffonng/us-grad-admission/blob/main/US%20Graduate%20Admission%20Prediction.ipynb)
+- 1st year, Analysis & Logical Thinking (CS51): [T-test for difference in sample means of Goodreads books](https://github.com/chiffonng/jupyter-notebooks/blob/main/Statistical%20Inference_Goodreads%20Books.ipynb)
+- 2nd year, Marketing Analytics (B110): [Case study: Tivo Segmentation]()
+- 3rd year, Machine Learning (CS156): [Academic document classification in sklearn](https://github.com/chiffonng/jupyter-notebooks/blob/main/Text%20Classification%20Pipeline.ipynb)
+- 3rd year, Bayesian Modeling (CS146)
+- 3rd year, Statistical Modeling & Causal Inference in R (CS130)
